@@ -2,26 +2,49 @@
 
 int main()
 {
-    int rows = 5;
+    int n;
+    printf("size: ");
+    scanf("%d", &n);
 
-    for (int i = 0; i < rows; i++)
+    printf("\nBasic Pattern:\n\n");
+
+    for (int i = 0; i < n; i++)
     {
+        for (int j = 0; j < n; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    printf("\n\nRight Triangle Pattern:\n\n");
 
-        for (int j = 0; j <= i; j++)
+    for (int row = 0; row < n; row++)
+    {
+        for (int col = 0; col < row + 1; col++)
         {
             printf("* ");
         }
         printf("\n");
     }
 
-    for (int i = 0; i < rows; i++)
+    printf("\n\n Decreasing triangle Pattern:\n\n");
+
+    for (int row = 0; row < n; row++)
     {
-        for (int k = 5; k = 1; k-=1)
+        for (int col = 0; col < n - row; col++)
         {
             printf("* ");
         }
         printf("\n");
     }
+    printf("\n\n Decreasing triangle Number Pattern:\n\n");
 
-    return 0;
+    for (int row = 0; row < n; row++)
+    {
+        for (int col = 0; col < n - row; col++)
+        {
+            printf("%d ", col);
+        }
+        printf("\n");
+    }
 }
