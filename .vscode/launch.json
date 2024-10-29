@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Kiruthik Kumar R/Desktop/C Class/c",
-      "program": "c:/Users/Kiruthik Kumar R/Desktop/C Class/c/build/Debug/outDebug",
+      "cwd": "c:/Users/kirut/OneDrive/Desktop/GITHUB - LOCAL/c/DSA",
+      "program": "c:/Users/kirut/OneDrive/Desktop/GITHUB - LOCAL/c/DSA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
